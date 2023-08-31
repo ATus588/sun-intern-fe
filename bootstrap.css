@@ -1,0 +1,85 @@
+.nav__item--active {
+    position: relative;
+}
+
+.nav__item--active a {
+    color:  #c01111 !important;
+}
+
+.nav__item--active::before {
+    content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  width: 40%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #c01111;
+  transition: 0.5s;
+}
+
+.nav__item {
+  position: relative;
+}
+
+.nav__item a:hover {
+    color: #c01111;
+}
+
+.nav__item:hover::before {
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  width: 40%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #c01111;
+  transition: 0.5s;
+}
+
+.quote__container {
+    position: relative;
+}
+
+.quote__image {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.name__container {
+    background-image: url(https://htmlcolorcodes.com/assets/images/colors/dark-red-color-solid-background-1920x1080.png);
+    color: white;
+}
+
+.black__line {
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.business__card__left {
+    background-color: #c01111;
+    color: white;
+}
+
+.business__studio__left {
+    position: relative;
+}
+
+.business__card__left a {
+    width: 80%;
+    background-color: white;
+    color: #c01111;
+}
+
+.business__card__right a {
+    width: 80%;
+    background-color: black;
+    color: white;
+}
